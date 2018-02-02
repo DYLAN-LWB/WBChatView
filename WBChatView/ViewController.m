@@ -33,10 +33,12 @@
     [self addMessage:MsgTypeIsText form:MsgFromIsLeft text:@"1.0版本只有文字消息\n后续会加入输入框自适应高度,图片消息,语音消息,等等"];
 }
 
+//delegate
 - (void)sendMessage:(NSInteger)type text:(NSString *)text {
     [self addMessage:MsgTypeIsText form:MsgFromIsRight text:text];
 }
 
+//新增消息
 - (void)addMessage:(NSInteger)type form:(NSInteger)form text:(NSString *)text {
 
     WBChatModel *msgModel = [[WBChatModel alloc] init];
