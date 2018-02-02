@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		5282524120241934003B262B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282524020241934003B262B /* AppDelegate.m */; };
 		5282524420241934003B262B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282524320241934003B262B /* ViewController.m */; };
-		5282524720241934003B262B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282524520241934003B262B /* Main.storyboard */; };
-		5282524920241934003B262B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5282524820241934003B262B /* Assets.xcassets */; };
-		5282524C20241934003B262B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282524A20241934003B262B /* LaunchScreen.storyboard */; };
-		5282524F20241934003B262B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282524E20241934003B262B /* main.m */; };
+		52825257202419DC003B262B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52825256202419DC003B262B /* Assets.xcassets */; };
+		5282525C202419E5003B262B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52825258202419E4003B262B /* LaunchScreen.storyboard */; };
+		5282525D202419E5003B262B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282525A202419E5003B262B /* Main.storyboard */; };
+		52825260202419EB003B262B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282525E202419EB003B262B /* main.m */; };
+		52825261202419EB003B262B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5282525F202419EB003B262B /* Info.plist */; };
+		5282526520243EA9003B262B /* WBChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282526420243EA9003B262B /* WBChatView.m */; };
+		52825268202440C3003B262B /* WBChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52825267202440C3003B262B /* WBChatCell.m */; };
+		5282526B202440D5003B262B /* WBChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282526A202440D5003B262B /* WBChatModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +25,17 @@
 		5282524020241934003B262B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5282524220241934003B262B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5282524320241934003B262B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5282524620241934003B262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5282524820241934003B262B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5282524B20241934003B262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5282524D20241934003B262B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5282524E20241934003B262B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52825256202419DC003B262B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52825259202419E4003B262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5282525B202419E5003B262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5282525E202419EB003B262B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5282525F202419EB003B262B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5282526320243EA9003B262B /* WBChatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBChatView.h; sourceTree = "<group>"; };
+		5282526420243EA9003B262B /* WBChatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBChatView.m; sourceTree = "<group>"; };
+		52825266202440C3003B262B /* WBChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBChatCell.h; sourceTree = "<group>"; };
+		52825267202440C3003B262B /* WBChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBChatCell.m; sourceTree = "<group>"; };
+		52825269202440D5003B262B /* WBChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBChatModel.h; sourceTree = "<group>"; };
+		5282526A202440D5003B262B /* WBChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBChatModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +72,33 @@
 				5282524020241934003B262B /* AppDelegate.m */,
 				5282524220241934003B262B /* ViewController.h */,
 				5282524320241934003B262B /* ViewController.m */,
-				5282524520241934003B262B /* Main.storyboard */,
-				5282524820241934003B262B /* Assets.xcassets */,
-				5282524A20241934003B262B /* LaunchScreen.storyboard */,
-				5282524D20241934003B262B /* Info.plist */,
-				5282524E20241934003B262B /* main.m */,
+				5282526D20245727003B262B /* WBChatView */,
+				5282526220243A8C003B262B /* Supporting Files */,
+			);
+			path = WBChatView;
+			sourceTree = "<group>";
+		};
+		5282526220243A8C003B262B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5282525E202419EB003B262B /* main.m */,
+				52825256202419DC003B262B /* Assets.xcassets */,
+				52825258202419E4003B262B /* LaunchScreen.storyboard */,
+				5282525A202419E5003B262B /* Main.storyboard */,
+				5282525F202419EB003B262B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5282526D20245727003B262B /* WBChatView */ = {
+			isa = PBXGroup;
+			children = (
+				5282526320243EA9003B262B /* WBChatView.h */,
+				5282526420243EA9003B262B /* WBChatView.m */,
+				52825266202440C3003B262B /* WBChatCell.h */,
+				52825267202440C3003B262B /* WBChatCell.m */,
+				52825269202440D5003B262B /* WBChatModel.h */,
+				5282526A202440D5003B262B /* WBChatModel.m */,
 			);
 			path = WBChatView;
 			sourceTree = "<group>";
@@ -129,9 +161,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5282524C20241934003B262B /* LaunchScreen.storyboard in Resources */,
-				5282524920241934003B262B /* Assets.xcassets in Resources */,
-				5282524720241934003B262B /* Main.storyboard in Resources */,
+				52825257202419DC003B262B /* Assets.xcassets in Resources */,
+				5282525D202419E5003B262B /* Main.storyboard in Resources */,
+				5282525C202419E5003B262B /* LaunchScreen.storyboard in Resources */,
+				52825261202419EB003B262B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,28 +176,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				5282524420241934003B262B /* ViewController.m in Sources */,
-				5282524F20241934003B262B /* main.m in Sources */,
+				52825268202440C3003B262B /* WBChatCell.m in Sources */,
+				52825260202419EB003B262B /* main.m in Sources */,
 				5282524120241934003B262B /* AppDelegate.m in Sources */,
+				5282526B202440D5003B262B /* WBChatModel.m in Sources */,
+				5282526520243EA9003B262B /* WBChatView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5282524520241934003B262B /* Main.storyboard */ = {
+		52825258202419E4003B262B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5282524620241934003B262B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5282524A20241934003B262B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5282524B20241934003B262B /* Base */,
+				52825259202419E4003B262B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5282525A202419E5003B262B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5282525B202419E5003B262B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2SF8EFK6B;
 				INFOPLIST_FILE = WBChatView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liweibin.WBChatView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2SF8EFK6B;
 				INFOPLIST_FILE = WBChatView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liweibin.WBChatView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
